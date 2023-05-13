@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import "./Mainpage.css";
 import { Grid } from '@material-ui/core';
 import LeftSide from './LeftSidePanel/LeftSide';
-import StatusBar from './StatusBar/Status';
+import StatusBar from './StatusBar/StatusBar';
+import UploadSection from './UploadSection/UploadSection';
+import PostContainer from './PostContainer/PostContainer';
 
 class Layout extends Component {
     constructor(props) {
@@ -16,8 +18,10 @@ class Layout extends Component {
                 <Grid item xs={3}>
                     <LeftSide />
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={6} className='middleContainer'>
                     <StatusBar />
+                    <UploadSection />
+                    <PostContainer />
                 </Grid>
                 <Grid item xs={3}>
                     right

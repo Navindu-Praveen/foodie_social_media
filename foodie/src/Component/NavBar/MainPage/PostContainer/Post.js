@@ -1,7 +1,7 @@
 import { Paper } from '@material-ui/core';
 import React, { Component } from 'react'
 
-class Status extends Component {
+class Post extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -10,10 +10,11 @@ class Status extends Component {
     render() { 
         return ( 
             <div>
-                <Paper className='statusbar__status'/>
+                <Paper className="post__container"> 
+                    </Paper>
             </div>
          );
     }
 }
  
-export default Status;
+export default Post;
