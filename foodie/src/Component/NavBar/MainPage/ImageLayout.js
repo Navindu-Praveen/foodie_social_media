@@ -1,4 +1,6 @@
+import { Avatar } from '@material-ui/core';
 import React, { Component } from 'react'
+import "./Mainpage.css";
 
 class ImageLayout extends Component {
     constructor(props) {
@@ -7,8 +9,13 @@ class ImageLayout extends Component {
     }
         render() { 
         return ( 
-            <div>
-                Image
+            <div className="imageLayout__container">
+                <div className="imageLayout__imglay">
+                    <Avatar className="imageLayout__img" src={this.props.image} />
+                </div>
+                <div className="imageLayout__text">
+                    {this.props.text}
+                </div>
             </div>
          );
     }

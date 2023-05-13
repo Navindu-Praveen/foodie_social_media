@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import "./LeftSide.css"
 import ImageLayout from '../ImageLayout';
-
+import groups from "../../../../images/groups.png";
+import memories from "../../../../images/memories.png";
+import messengerKids from "../../../../images/messengerkids.png";
+import ads from "../../../../images/ads.png"
 
 class LeftSide extends Component {
     constructor(props) {
@@ -11,15 +14,10 @@ class LeftSide extends Component {
     
     render() { 
         return ( <div>
-            <ImageLayout />
-            <ImageLayout />
-            <ImageLayout />
-            <ImageLayout />
-            <ImageLayout />
-            <ImageLayout />
-            <ImageLayout />
-            <ImageLayout />
-            <ImageLayout />
+            <ImageLayout image={groups} text="Friends"/>
+            <ImageLayout image={memories} text="Memories"/>
+            <ImageLayout image={messengerKids} text="Messenger"/>
+            <ImageLayout image={ads} text="Ads"/>
         </div> );
     }
 }

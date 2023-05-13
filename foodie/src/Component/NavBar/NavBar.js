@@ -47,7 +47,7 @@ class NavBar extends Component {
                 <Grid item xs ={3}>
                 <div className="navbar__right">
                             <div className="navbar__righttab"> 
-                            <Avatar className="navbar__rightimg" src="https://web.facebook.com/SensitiveContentEyewear/photos/a.107070181041781/107343014347831/?__tn__=%3C" />
+                            <Avatar className="navbar__rightimg" src="https://scontent.fcmb4-2.fna.fbcdn.net/v/t39.30808-1/225796552_4061129557275916_1409216289508167974_n.jpg?stp=cp0_dst-jpg_p86x86&_nc_cat=102&ccb=1-7&_nc_sid=dbb9e7&_nc_eui2=AeFFJibsjuZ1MhZoDsoYaKX3VjzWMUEeVDlWPNYxQR5UOeoCgl0W8e-LgmZnVeAxrTzhLNHl9mngtT8Rvjc8Jb5C&_nc_ohc=TRjpcK5vrKgAX9KCOMf&_nc_ht=scontent.fcmb4-2.fna&oh=00_AfCG2-lR5KY7iHorlBjFJNivSu4JCcCA_bgpbrMPYyVS3Q&oe=64643621" />
                             <div className="navbar__profilename">Praveen</div>
                             </div>
                             
