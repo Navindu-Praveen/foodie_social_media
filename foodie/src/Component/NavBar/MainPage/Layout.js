@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./Mainpage.css";
 import { Grid } from '@material-ui/core';
+import LeftSide from './LeftSidePanel/LeftSide';
 
 class Layout extends Component {
     constructor(props) {
@@ -12,7 +13,7 @@ class Layout extends Component {
         <div className="mainpage__container">
             <Grid container>
                 <Grid item xs={3}>
-                    left
+                    <LeftSide />
                 </Grid>
                 <Grid item xs={6}>
                     midle
