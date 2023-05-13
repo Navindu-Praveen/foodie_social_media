@@ -50,6 +50,7 @@ class NavBar extends Component {
                             <Avatar className="navbar__rightimg" src="https://web.facebook.com/SensitiveContentEyewear/photos/a.107070181041781/107343014347831/?__tn__=%3C" />
                             <div className="navbar__profilename">Praveen</div>
                             </div>
+                            
                         </div>
                     </Grid>
                 </Grid>
