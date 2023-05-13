@@ -18,10 +18,7 @@ class LeftSide extends Component {
 
     getData=()=>{ //FAke JSON RESPONSE
         let jsondata = [
-            {
-                "image": JSON.parse(localStorage.getItem("user")).userImage,
-                "text": JSON.parse(localStorage.getItem("user")).userName
-            },
+            
             {
                 "image": groups,
                 "text":"Friends"
