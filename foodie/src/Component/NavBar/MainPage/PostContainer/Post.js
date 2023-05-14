@@ -22,8 +22,9 @@ class Post extends Component {
                     <div className="post__header_img">
                         <Avatar src="https://scontent.fcmb4-2.fna.fbcdn.net/v/t39.30808-1/225796552_4061129557275916_1409216289508167974_n.jpg?stp=cp0_dst-jpg_p86x86&_nc_cat=102&ccb=1-7&_nc_sid=dbb9e7&_nc_eui2=AeFFJibsjuZ1MhZoDsoYaKX3VjzWMUEeVDlWPNYxQR5UOeoCgl0W8e-LgmZnVeAxrTzhLNHl9mngtT8Rvjc8Jb5C&_nc_ohc=TRjpcK5vrKgAX9KCOMf&_nc_ht=scontent.fcmb4-2.fna&oh=00_AfCG2-lR5KY7iHorlBjFJNivSu4JCcCA_bgpbrMPYyVS3Q&oe=64643621" className="post_img" />
                     </div>
+
                     <div className="post__header_text">
-                        Navindu Praveen
+                        {this.props.object.user_name}
                     </div>
                 </div>
 
