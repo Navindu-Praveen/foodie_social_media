@@ -12,6 +12,10 @@ class Post extends Component {
         super(props);
         this.state = {  }
     }
+        isImageAvailable=(data)=>{
+            return data==""?false:true;
+    }
+
     
     render() { 
         return ( 
@@ -34,7 +38,11 @@ class Post extends Component {
                  </div>
 
                   {/* image */}
-                  <div>
+                  <div className="post_image">
+                    {
+                        this.isImageAvailable(this.props.object.post_img) ? <img src={this.props.object.post_img} width="600px" /> : <span></span>
+
+                    }
                     <img src={this.props.object.post_img} width="600px" />
                   </div>
 

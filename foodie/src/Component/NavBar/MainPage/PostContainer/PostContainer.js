@@ -18,13 +18,13 @@ class PostContainer extends Component {
                    "user_img": "url....",
                    "user_name": "Praveen",
                    "description": "Loved this wallpaper...",
-                   "post_img" : "Url of the img",
+                   "post_img" : "uri imahe",
                     "like": "25"
                 },
                {
                     "post_ID": 2,
                      "user_id": 12345678,
-                    "user_img": "URL...",
+                    "user_img": "",
                     "user_name": "Technical Interview",
                     "description": "this is a dummy description for testing purpose",
                     "post_img" :"",
