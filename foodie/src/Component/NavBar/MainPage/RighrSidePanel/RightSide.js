@@ -5,6 +5,7 @@ import groups from "../../../../images/groups.png";
 
 import dpwomen from "../../../../images/dp3.png";
 import dpman from "../../../../images/dp9.png";
+import dpman6 from "../../../../images/dp6.png";
 
 class RightSide extends Component {
     constructor(props) {
@@ -17,7 +18,7 @@ class RightSide extends Component {
         let jsondata = [
             
             {
-                "image": dpman,
+                "image": dpman6,
                 "text":"Navindu Praveen"
             },
             {
