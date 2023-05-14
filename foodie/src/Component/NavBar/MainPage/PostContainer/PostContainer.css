@@ -1,4 +1,5 @@
 .post__container {
+   
     width: 600px;
     margin-top: 20px;
     border-radius: 20px;
@@ -6,7 +7,7 @@
 
 .post__header {
     display: flex;
-    height: 65px;
+    height: 50px;
 }
 .post__header_img {
 
@@ -37,7 +38,9 @@
 
 }
 .post__img {
+    margin: 10px 0px;
     height: 20px;
+
 }
 .post__likecount{
     margin-left: 5px;
