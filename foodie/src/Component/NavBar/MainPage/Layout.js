@@ -5,6 +5,7 @@ import LeftSide from './LeftSidePanel/LeftSide';
 import StatusBar from './StatusBar/StatusBar';
 import UploadSection from './UploadSection/UploadSection';
 import PostContainer from './PostContainer/PostContainer';
+import RightSide from './RighrSidePanel/RightSide';
 
 class Layout extends Component {
     constructor(props) {
@@ -24,7 +25,7 @@ class Layout extends Component {
                     <PostContainer />
                 </Grid>
                 <Grid item xs={3}>
-                    right
+                    <RightSide />
                 </Grid>
                 </Grid>
         </div> );
