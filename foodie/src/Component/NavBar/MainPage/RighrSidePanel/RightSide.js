@@ -7,6 +7,8 @@ import messengerKids from "../../../../images/messengerkids.png";
 import ads from "../../../../images/ads.png";
 import adsmanager from "../../../../images/admanager.png";
 import business from "../../../../images/business.png";
+import dpwomen from "../../../../images/dp3.png";
+import dpman from "../../../../images/dp9.png";
 
 class RightSide extends Component {
     constructor(props) {
@@ -20,28 +22,28 @@ class RightSide extends Component {
             
             {
                 "image": groups,
-                "text":"Friends"
+                "text":"Navindu Praveen"
             },
             {
-                "image": memories,
-                "text":"Memories"
+                "image": dpman,
+                "text":"Mahinda "
             },
             {
-                "image": messengerKids,
-                "text":"Messenger"
+                "image": dpman,
+                "text":"Sajith"
             },
             {
-                "image": ads,
-                "text":"Ad Center"
+                "image": dpman,
+                "text":"Ranil"
             },
             {
-                "image": adsmanager,
-                "text":"Ads Manager"
+                "image": dpman,
+                "text":"Anura"
             },
            
             {
-                "image": business,
-                "text":"Business Manager"
+                "image": dpwomen,
+                "text":"Gamage"
             }    
         ];
         this.setState({data : jsondata});
