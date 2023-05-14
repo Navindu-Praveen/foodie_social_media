@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./PostContainer.css";
 import Post from './Post';
+import food1 from "../../../../images/food1.jpg";
 
 class PostContainer extends Component {
     constructor(props) {
@@ -15,18 +16,18 @@ class PostContainer extends Component {
                 {
                     "post_ID": 1,
                    "user_id": 12345678,
-                   "user_img": "1",
+                   "user_img": "This is a Perfect Meal ",
                    "user_name": "Praveen",
-                   "description": "Loved this wallpaper...",
-                   "post_img" : "1",
-                    "like": "25"
+                   "description": "This is a Perfect Meal අපි කමුත .",
+                   "post_img" : food1,
+                    "like": "2.5k"
                 },
                {
                     "post_ID": 2,
                      "user_id": 12345678,
                     "user_img": "",
                     "user_name": "Technical Interview",
-                    "description": "this is a dummy description for testing purpose",
+                    "description": "අද මොනවත කම්ත තියෙන්නේ🤞🤷‍♂️🤷‍♀️",
                     "post_img" :"",
                     "like": "25"
                 }
