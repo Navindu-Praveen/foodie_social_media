@@ -35,7 +35,7 @@ class Post extends Component {
 
                   {/* image */}
                   <div>
-                    <img src={post} width="600px" />
+                    <img src={this.props.object.post_img} width="600px" />
                   </div>
 
                    {/* like count */}
@@ -44,7 +44,7 @@ class Post extends Component {
                         <img className="post__img" src={likebutton} />
                     </div>
                     <div className="post__likecount">
-                        25
+                    {this.props.object.like}
                     </div>
                    </div>
 
