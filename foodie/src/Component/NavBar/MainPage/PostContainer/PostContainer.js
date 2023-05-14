@@ -41,7 +41,7 @@ class PostContainer extends Component {
             <div>
                 {
                     this.state.data.map((item)=>(
-                        <Post object={item} />
+                        <Post object={item } />
                     ))
                 }
             </div>

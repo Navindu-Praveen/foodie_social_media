@@ -30,7 +30,7 @@ class Post extends Component {
 
                  {/* description */}
                  <div className="post__description">
-                    Loved this Wallpaper....
+                 {this.props.object.description}
                  </div>
 
                   {/* image */}
