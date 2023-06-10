@@ -10,3 +10,6 @@ Basic Knowledge Required:
 Basic of React, HTML, 3. CSS Java 5.Basic Of Spring Boot Download Links:
 
 Node js: https://nodejs.org/en React: https://reactjs.org/ Cassandra: https://cassandra.apache.org/ FireBase Application: https://firebase.google.com/ Heroku: https://www.heroku.com/
+
+
+frontend completed need to develop back-end
